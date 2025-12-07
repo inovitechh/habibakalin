@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Habib Akalın | Uluslararası Gezi Rehberi & Araştırmacı Yazar</title>
+    <meta name="description" content="Habib Akalın, Frig Vadisi ve Büyük Taarruz başta olmak üzere global miras alanlarında uzmanlaşmış Uluslararası Gezi Rehberi ve Araştırmacı Yazardır.">
+    <meta name="keywords" content="Habib Akalın, Uluslararası Gezi Rehberi, Araştırmacı Yazar, Frig Vadisi, Büyük Taarruz, Afyonkarahisar Rehberi, Turizm">
+    <meta name="author" content="Habib Akalın">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="Habib Akalın | Uluslararası Gezi Rehberi & Araştırmacı Yazar">
+    <meta property="og:description" content="Tarihin derinliklerinden geleceğe bir köprü. Uluslararası seyahat rehberliği ve tarih araştırmaları üzerine uzmanlaşmış yazar.">
+    <meta property="og:image" content="https://senin-siten.com/assets/img/sosyal-medya-gorseli.jpg">
+    <meta property="og:url" content="https://senin-siten.com">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="tr_TR">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Habib Akalın | Uluslararası Gezi Rehberi">
+    <meta name="twitter:description" content="Global mirasın yerel sesi. Uluslararası gezi rehberi ve araştırmacı yazar.">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Habib Akalın",
+      "jobTitle": "Uluslararası Gezi Rehberi & Araştırmacı Yazar",
+      "url": "https://senin-siten.com",
+      "image": "https://senin-siten.com/assets/img/profil.jpg",
+      "description": "Frig Vadisi ve Büyük Taarruz bölgelerinde uzmanlaşmış uluslararası gezi rehberi ve yazar.",
+      "knowsAbout": ["Uluslararası Turizm", "Tarih", "Arkeoloji", "Frig Vadisi", "Büyük Taarruz"],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Sinada Yayınevi"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+90-536-736-9513",
+        "contactType": "customer service",
+        "availableLanguage": ["Turkish", "English"]
+      }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* --- CSS STİLLERİ (Aynı, Korundu) --- */
+        :root {
+            --primary-dark: #2b0c0c;
+            --imperial-red: #800020;
+            --royal-gold: #c5a059;
+            --gold-gradient: linear-gradient(135deg, #c5a059 0%, #e6c88b 50%, #c5a059 100%);
+            --bg-body: #fdfbf9;
+            --bg-glass: rgba(255, 255, 255, 0.95);
+            --shadow-soft: 0 20px 40px rgba(43, 12, 12, 0.08);
+            --shadow-hover: 0 30px 60px rgba(128, 0, 32, 0.15);
+            --border-radius: 20px;
+            --transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg-body);
+            color: var(--primary-dark);
+            overflow-x: hidden;
+            transition: 0.3s;
+        }
+
+        /* ARAPÇA (RTL) MODU */
+        body.rtl {
+            font-family: 'Tajawal', sans-serif !important;
+            direction: rtl;
+            text-align: right;
+        }
+        body.rtl .section-header { border-left: none; border-right: 5px solid var(--royal-gold); padding-left: 0; padding-right: 20px; }
+        body.rtl .lang-switch { padding-left: 0; padding-right: 20px; border-left: none; border-right: 1px solid rgba(0,0,0,0.1); }
+        body.rtl .btn-main i, body.rtl .contact-btn i { margin-left: 0 !important; margin-right: 10px; }
+        body.rtl .modern-card::before { left: auto; right: 0; }
+        body.rtl .book-tag { margin-left: auto; margin-right: 0; }
+        body.rtl .floating-wa { right: auto; left: 30px; }
+
+        .bg-pattern {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background-image: radial-gradient(var(--royal-gold) 0.5px, transparent 0.5px), radial-gradient(var(--royal-gold) 0.5px, var(--bg-body) 0.5px);
+            background-size: 40px 40px; opacity: 0.15; z-index: -1;
+        }
+
+        nav {
+            position: fixed; top: 20px; left: 50%; transform: translateX(-50%);
+            width: 90%; max-width: 1200px; background: var(--bg-glass);
+            backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);
+            padding: 1rem 2rem; border-radius: 50px;
+            display: flex; justify-content: space-between; align-items: center;
+            box-shadow: var(--shadow-soft); z-index: 1000;
+            border: 1px solid rgba(255,255,255,0.5);
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.5rem;
+            background: var(--gold-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            letter-spacing: 1px; z-index: 2005;
+        }
+
+        .nav-links { display: flex; gap: 2rem; align-items: center; }
+        .nav-links a {
+            text-decoration: none; color: var(--primary-dark); font-weight: 500; font-size: 0.9rem;
+            position: relative; transition: var(--transition);
+        }
+        .nav-links a::after {
+            content: ''; position: absolute; width: 0; height: 2px;
+            bottom: -5px; left: 0; background: var(--imperial-red); transition: var(--transition);
+        }
+        .nav-links a:hover::after { width: 100%; }
+
+        .lang-switch {
+            display: flex; align-items: center; gap: 8px;
+            padding-left: 20px; border-left: 1px solid rgba(0,0,0,0.1);
+        }
+        .lang-switch span.lang-btn {
+            font-size: 0.8rem; font-weight: 700; opacity: 0.6; cursor: pointer; transition: 0.3s;
+        }
+        .lang-switch span.lang-btn.active, .lang-switch span.lang-btn:hover { opacity: 1; color: var(--imperial-red); }
+
+        .menu-toggle { display: none; font-size: 1.8rem; color: var(--primary-dark); cursor: pointer; z-index: 2010; transition: 0.3s; }
+
+        .hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 8rem 2rem 0 2rem; position: relative; }
+        .hero-content { max-width: 800px; z-index: 2; }
+        .badge {
+            display: inline-block; padding: 0.5rem 1.5rem; background: rgba(128, 0, 32, 0.1);
+            color: var(--imperial-red); border-radius: 30px; font-size: 0.8rem; font-weight: 700;
+            letter-spacing: 2px; margin-bottom: 1.5rem; text-transform: uppercase;
+        }
+        .hero h1 { font-family: 'Playfair Display', serif; font-size: 4.5rem; line-height: 1.1; margin-bottom: 1.5rem; color: var(--primary-dark); }
+        .hero h1 span { font-style: italic; background: var(--gold-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero p { font-size: 1.2rem; color: #555; margin-bottom: 2.5rem; line-height: 1.8; }
+        
+        .btn-main {
+            display: inline-block; padding: 1rem 3rem; background: var(--imperial-red);
+            color: white; border-radius: 50px; text-decoration: none; font-weight: 600;
+            box-shadow: 0 10px 20px rgba(128, 0, 32, 0.3); transition: var(--transition); border: none; cursor: pointer;
+        }
+        .btn-main:hover { transform: translateY(-5px); background: #600018; }
+
+        .stats-bar { background: var(--primary-dark); color: var(--royal-gold); padding: 3rem 0; margin-top: 20px; position: relative; z-index: 5; border-radius: 0 0 50px 50px; }
+        .stats-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-around; text-align: center; flex-wrap: wrap; }
+        .stat-item h3 { font-family: 'Playfair Display', serif; font-size: 3rem; margin-bottom: 0.5rem; }
+
+        section { padding: 6rem 2rem; max-width: 1200px; margin: 0 auto; scroll-margin-top: 100px; }
+        .section-header { margin-bottom: 4rem; position: relative; padding-left: 20px; border-left: 5px solid var(--royal-gold); }
+        .section-header h2 { font-family: 'Playfair Display', serif; font-size: 2.5rem; color: var(--primary-dark); }
+        
+        .grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .modern-card { background: white; padding: 2.5rem; border-radius: var(--border-radius); box-shadow: var(--shadow-soft); transition: var(--transition); position: relative; overflow: hidden; border: 1px solid rgba(255,255,255,0.8); }
+        .modern-card:hover { transform: translateY(-10px); }
+        .modern-card::before { content: ''; position: absolute; top: 0; left: 0; width: 5px; height: 100%; background: var(--gold-gradient); opacity: 0; transition: var(--transition); }
+        .modern-card:hover::before { opacity: 1; }
+        
+        .icon-box { width: 60px; height: 60px; background: rgba(197, 160, 89, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem; color: var(--imperial-red); font-size: 1.5rem; }
+        .modern-card h3 { font-size: 1.5rem; margin-bottom: 1rem; font-family: 'Playfair Display', serif; }
+
+        .book-wrapper { display: flex; gap: 2rem; overflow-x: auto; padding: 2rem 1rem; scroll-snap-type: x mandatory; }
+        .book-card { min-width: 280px; height: 400px; background: linear-gradient(135deg, #2b0c0c, #4a1c1c); border-radius: 15px; position: relative; color: white; display: flex; flex-direction: column; justify-content: flex-end; padding: 2rem; box-shadow: 0 15px 35px rgba(0,0,0,0.2); transition: var(--transition); scroll-snap-align: center; overflow: hidden; border: 1px solid var(--royal-gold); }
+        .book-bg-text { position: absolute; top: -20px; left: -20px; font-size: 8rem; font-family: 'Playfair Display', serif; opacity: 0.05; color: white; line-height: 0.8; }
+        .book-card:hover { transform: scale(1.05); }
+        .book-tag { background: var(--royal-gold); color: var(--primary-dark); padding: 5px 10px; font-size: 0.7rem; font-weight: bold; border-radius: 5px; width: fit-content; margin-bottom: 10px; }
+
+        .contact-modern { background: white; border-radius: 30px; padding: 4rem; box-shadow: var(--shadow-soft); text-align: center; background: linear-gradient(to right, #fff, #fdfbf9); border: 1px solid #eee; }
+        .contact-links { display: flex; justify-content: center; gap: 2rem; margin-top: 2rem; flex-wrap: wrap; }
+        .contact-btn { padding: 1rem 2rem; border: 2px solid var(--primary-dark); border-radius: 50px; color: var(--primary-dark); font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: 0.3s; }
+        .contact-btn:hover { background: var(--primary-dark); color: white; }
+        .whatsapp-btn-style { border-color: #25D366; color: #25D366; }
+        .whatsapp-btn-style:hover { background: #25D366; color: white; }
+
+        .floating-wa { position: fixed; bottom: 30px; right: 30px; width: 60px; height: 60px; background-color: #25d366; color: white; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 32px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); z-index: 2000; transition: 0.3s; text-decoration: none; }
+        .floating-wa:hover { transform: scale(1.1); }
+
+        footer { text-align: center; padding: 2rem; color: #888; font-size: 0.8rem; margin-top: 4rem; }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .menu-toggle { display: block; }
+            .nav-links { position: fixed; top: 0; right: -100%; width: 80%; height: 100vh; background: var(--primary-dark); flex-direction: column; justify-content: center; transition: 0.5s ease; z-index: 2000; box-shadow: -10px 0 20px rgba(0,0,0,0.5); }
+            body.rtl .nav-links { right: auto; left: -100%; box-shadow: 10px 0 20px rgba(0,0,0,0.5); }
+            .nav-links.active { right: 0; }
+            body.rtl .nav-links.active { right: auto; left: 0; }
+            .nav-links a { color: var(--royal-gold); font-size: 1.3rem; margin: 15px 0; }
+            .lang-switch { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; margin-top: 10px; width: 100%; justify-content: center; border-left: none; border-right: none !important; }
+            .lang-switch span.lang-btn { color: white; font-size: 1rem; margin: 0 8px; }
+            .lang-switch span.lang-btn.active { color: var(--royal-gold); }
+            nav { width: 95%; padding: 1rem; }
+            .stats-container { flex-direction: column; gap: 2rem; }
+            .contact-modern { padding: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-pattern"></div>
+
+    <nav aria-label="Ana Menü">
+        <a href="#" class="logo" aria-label="Habib Akalın Ana Sayfa">H. AKALIN</a>
+        
+        <div class="menu-toggle" onclick="toggleMenu()" aria-label="Menüyü Aç/Kapa" role="button">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="nav-links" id="nav-links">
+            <a href="#about" onclick="toggleMenu()" data-lang="nav_about">Hakkımda</a>
+            <a href="#expertise" onclick="toggleMenu()" data-lang="nav_expert">Uzmanlık</a>
+            <a href="#books" onclick="toggleMenu()" data-lang="nav_books">Eserler</a>
+            <a href="#contact" onclick="toggleMenu()" data-lang="nav_contact">İletişim</a>
+            
+            <div class="lang-switch" aria-label="Dil Seçimi">
+                <span onclick="setLanguage('tr')" class="lang-btn active" role="button" tabindex="0">TR</span>
+                <span>|</span>
+                <span onclick="setLanguage('en')" class="lang-btn" role="button" tabindex="0">EN</span>
+                <span>|</span>
+                <span onclick="setLanguage('el')" class="lang-btn" role="button" tabindex="0">EL</span>
+                <span>|</span>
+                <span onclick="setLanguage('ar')" class="lang-btn" role="button" tabindex="0">AR</span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="hero">
+            <div class="hero-content">
+                <span class="badge" data-lang="hero_badge">Uluslararası Gezi Rehberi & Araştırmacı Yazar</span>
+                <h1 data-lang="hero_title">Tarihin Derinliklerinden<br><span>Geleceğe Bir Köprü</span></h1>
+                <p data-lang="hero_desc">Frig Vadisi'nin sessiz tanıklarını ve Büyük Taarruz'un kazanıldığı toprakları, modern bir bakış açısı ve derin bir tarih bilinciyle keşfedin.</p>
+                <a href="#contact" class="btn-main" data-lang="hero_btn" aria-label="Keşif Planla">Keşif Planla <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </header>
+
+        <div class="stats-bar">
+            <div class="stats-container">
+                <div class="stat-item">
+                    <h3>+15</h3>
+                    <p data-lang="stat_exp">Yıllık Saha Deneyimi</p>
+                </div>
+                <div class="stat-item">
+                    <h3>3</h3>
+                    <p data-lang="stat_book">Yayınlanmış Eser</p>
+                </div>
+                <div class="stat-item">
+                    <h3>∞</h3>
+                    <p data-lang="stat_disc">Keşfedilen Siperler</p>
+                </div>
+                <div class="stat-item">
+                    <h3>%100</h3>
+                    <p data-lang="stat_passion">Yerel Miras Tutkusu</p>
+                </div>
+            </div>
+        </div>
+
+        <section id="about">
+            <div class="section-header">
+                <h2 data-lang="about_title">Modern Kaşif,<br>Kadim Hikayeler</h2>
+            </div>
+            <div class="grid-container">
+                <article class="modern-card">
+                    <div class="icon-box"><i class="fas fa-compass"></i></div>
+                    <h3 data-lang="card1_title">Saha Hakimiyeti</h3>
+                    <p data-lang="card1_desc">Masa başı tarihçiliğinin ötesinde; Afyonkarahisar'ın dağlarında, vadilerinde ve köylerinde geçen bir ömür.</p>
+                </article>
+                <article class="modern-card">
+                    <div class="icon-box"><i class="fas fa-feather-alt"></i></div>
+                    <h3 data-lang="card2_title">Edebi Üretim</h3>
+                    <p data-lang="card2_desc">Sadece anlatmakla kalmayıp, gelecek nesillere "Hatırla Ey Türk" ve "Frig Yolu" gibi eserlerle kalıcı belgeler bırakan bir yazar.</p>
+                </article>
+                <article class="modern-card">
+                    <div class="icon-box"><i class="fas fa-users"></i></div>
+                    <h3 data-lang="card3_title">Kültürel Diplomasi</h3>
+                    <p data-lang="card3_desc">Yerel halktan uluslararası heyetlere kadar her kitleye Anadolu'nun ruhunu aktaran, turizmi bir kültür köprüsü olarak kullanan bir rehber.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="books">
+            <div class="section-header">
+                <h2 data-lang="books_title">İmza Eserler</h2>
+            </div>
+            <div class="book-wrapper">
+                <article class="book-card">
+                    <div class="book-bg-text">FRIG</div>
+                    <div class="book-tag" data-lang="book_tag1">TURİZM & ARKEOLOJİ</div>
+                    <h3>Frig Yolu</h3>
+                    <p data-lang="book1_desc">Bölgenin en kapsamlı görsel rehberi.</p>
+                    <div style="margin-top:auto; font-size:0.8rem; opacity:0.8;">Sinada Yayınevi</div>
+                </article>
+                <article class="book-card" style="background: linear-gradient(135deg, #1f1c18, #3a352a);">
+                    <div class="book-bg-text">1922</div>
+                    <div class="book-tag" data-lang="book_tag2">TARİH & ANI</div>
+                    <h3>Rüyamda Vatanı Gördüm</h3>
+                    <p data-lang="book2_desc">Milli Mücadele'nin insan hikayeleri.</p>
+                    <div style="margin-top:auto; font-size:0.8rem; opacity:0.8;">Sinada Yayınevi</div>
+                </article>
+                <article class="book-card" style="background: linear-gradient(135deg, #800020, #4a0012);">
+                    <div class="book-bg-text">KAN</div>
+                    <div class="book-tag" data-lang="book_tag3">ARAŞTIRMA</div>
+                    <h3>Hatırla Ey Türk</h3>
+                    <p data-lang="book3_desc">Kan selinde yürüyenlerin destansı anlatısı.</p>
+                    <div style="margin-top:auto; font-size:0.8rem; opacity:0.8;">Sinada Kitap</div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-modern">
+                <h2 style="font-family:'Playfair Display'; margin-bottom:1rem;" data-lang="contact_title">Tarihe Dokunmak İçin</h2>
+                <p data-lang="contact_desc">Afyonkarahisar gezileri, kitap temini veya seminer davetleri.</p>
+                
+                <div class="contact-links">
+                    <a href="https://wa.me/905367369513" target="_blank" class="contact-btn whatsapp-btn-style" aria-label="WhatsApp ile iletişime geç">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="tel:05367369513" class="contact-btn" aria-label="Telefon ile ara">
+                        <i class="fas fa-phone"></i> 0536 736 95 13
+                    </a>
+                    <a href="#" class="contact-btn" aria-label="Sinada Yayınevi">
+                        <i class="fas fa-book"></i> Sinada Yayınevi
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a href="https://wa.me/905367369513" class="floating-wa" target="_blank" title="WhatsApp" aria-label="WhatsApp Hızlı İletişim">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        © 2025 Habib Akalın.
+    </footer>
+
+    <script>
+        // --- 1. Toggle ve İkon Değişim Mantığı ---
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            const toggleIcon = document.querySelector('.menu-toggle i');
+            
+            navLinks.classList.toggle('active');
+            
+            if (navLinks.classList.contains('active')) {
+                toggleIcon.classList.remove('fa-bars');
+                toggleIcon.classList.add('fa-xmark');
+            } else {
+                toggleIcon.classList.remove('fa-xmark');
+                toggleIcon.classList.add('fa-bars');
+            }
+        }
+
+        // --- 2. Dil Çevirileri ---
+        const translations = {
+            tr: {
+                nav_about: "Hakkımda", nav_expert: "Uzmanlık", nav_books: "Eserler", nav_contact: "İletişim",
+                hero_badge: "Uluslararası Gezi Rehberi & Araştırmacı Yazar", // GÜNCELLENDİ
+                hero_title: "Tarihin Derinliklerinden<br><span>Geleceğe Bir Köprü</span>",
+                hero_desc: "Frig Vadisi'nin sessiz tanıklarını ve Büyük Taarruz'un kazanıldığı toprakları, modern bir bakış açısı ve derin bir tarih bilinciyle keşfedin.",
+                hero_btn: "Keşif Planla",
+                stat_exp: "Yıllık Saha Deneyimi", stat_book: "Yayınlanmış Eser", stat_disc: "Keşfedilen Siperler", stat_passion: "Yerel Miras Tutkusu",
+                about_title: "Modern Kaşif,<br>Kadim Hikayeler",
+                card1_title: "Saha Hakimiyeti", card1_desc: "Masa başı tarihçiliğinin ötesinde; Afyonkarahisar'ın dağlarında geçen bir ömür.",
+                card2_title: "Edebi Üretim", card2_desc: "Gelecek nesillere kalıcı belgeler bırakan bir yazar.",
+                card3_title: "Kültürel Diplomasi", card3_desc: "Anadolu'nun ruhunu aktaran, turizmi kültür köprüsü yapan bir rehber.",
+                books_title: "İmza Eserler",
+                book_tag1: "TURİZM & ARKEOLOJİ", book1_desc: "Bölgenin en kapsamlı görsel rehberi.",
+                book_tag2: "TARİH & ANI", book2_desc: "Milli Mücadele'nin insan hikayeleri.",
+                book_tag3: "ARAŞTIRMA", book3_desc: "Kan selinde yürüyenlerin destansı anlatısı.",
+                contact_title: "Tarihe Dokunmak İçin", contact_desc: "Afyonkarahisar gezileri, kitap temini veya seminer davetleri."
+            },
+            en: {
+                nav_about: "About Me", nav_expert: "Expertise", nav_books: "Works", nav_contact: "Contact",
+                hero_badge: "International Travel Guide & Researcher Author", // GÜNCELLENDİ
+                hero_title: "From History's Depths<br><span>A Bridge to Future</span>",
+                hero_desc: "Discover the silent witnesses of the Phrygian Valley and the lands of the Great Offensive with a modern perspective.",
+                hero_btn: "Plan Discovery",
+                stat_exp: "Years Field Experience", stat_book: "Published Books", stat_disc: "Trenches Discovered", stat_passion: "Local Heritage Passion",
+                about_title: "Modern Explorer,<br>Ancient Stories",
+                card1_title: "Field Mastery", card1_desc: "Beyond desk history; a life spent in the mountains and valleys of Afyonkarahisar.",
+                card2_title: "Literary Production", card2_desc: "An author leaving permanent records for future generations.",
+                card3_title: "Cultural Diplomacy", card3_desc: "A guide conveying the spirit of Anatolia to everyone.",
+                books_title: "Signature Works",
+                book_tag1: "TOURISM & ARCHAEOLOGY", book1_desc: "Comprehensive visual guide of the region.",
+                book_tag2: "HISTORY & MEMOIR", book2_desc: "Human stories of the National Struggle.",
+                book_tag3: "RESEARCH", book3_desc: "Epic narrative of those walking in the flood of blood.",
+                contact_title: "Touch the History", contact_desc: "Afyonkarahisar trips, book supply or seminar invitations."
+            },
+            el: {
+                nav_about: "Σχετικά", nav_expert: "Εξειδίκευση", nav_books: "Έργα", nav_contact: "Επικοινωνία",
+                hero_badge: "Διεθνής Ταξιδιωτικός Οδηγός & Ερευνητής Συγγραφέας", // GÜNCELLENDİ
+                hero_title: "Από τα Βάθη της Ιστορίας<br><span>Γέφυρα στο Μέλλον</span>",
+                hero_desc: "Ανακαλύψτε τους σιωπηλούς μάρτυρες της Φρυγικής Κοιλάδας και τα εδάφη της Μεγάλης Επίθεσης.",
+                hero_btn: "Σχεδιάστε",
+                stat_exp: "Χρόνια Εμπειρίας", stat_book: "Δημοσιευμένα Βιβλία", stat_disc: "Ανακαλύφθηκαν Χαρακώματα", stat_passion: "Πάθος για Κληρονομιά",
+                about_title: "Σύγχρονος Εξερευνητής,<br>Αρχαίες Ιστορίες",
+                card1_title: "Κυριαρχία Πεδίου", card1_desc: "Μια ζωή στα βουνά του Αφιόν Καραχισάρ.",
+                card2_title: "Λογοτεχνική Παραγωγή", card2_desc: "Ένας συγγραφέας που αφήνει μόνιμα αρχεία.",
+                card3_title: "Πολιτιστική Διπλωματία", card3_desc: "Ένας οδηγός που μεταφέρει το πνεύμα της Ανατολίας.",
+                books_title: "Έργα Υπογραφής",
+                book_tag1: "ΤΟΥΡΙΣΜΟΣ & ΑΡΧΑΙΟΛΟΓΙΑ", book1_desc: "Πλήρης οπτικός οδηγός της περιοχής.",
+                book_tag2: "ΙΣΤΟΡΙΑ & ΜΝΗΜΗ", book2_desc: "Ανθρώπινες ιστορίες του Εθνικού Αγώνα.",
+                book_tag3: "ΕΡΕΥΝΑ", book3_desc: "Επική αφήγηση όσων περπατούν στην πλημμύρα του αίματος.",
+                contact_title: "Αγγίξτε την Ιστορία", contact_desc: "Εκδρομές, προμήθεια βιβλίων ή προσκλήσεις."
+            },
+            ar: {
+                nav_about: "عني", nav_expert: "خبرات", nav_books: "أعمال", nav_contact: "اتصل",
+                hero_badge: "دليل سفر دولي وباحث مؤلف", // GÜNCELLENDİ
+                hero_title: "من أعماق التاريخ<br><span>جسر إلى المستقبل</span>",
+                hero_desc: "اكتشف الشواهد الصامتة لوادي فريجيا وأراضي الهجوم العظيم بمنظور حديث.",
+                hero_btn: "خطط للاستكشاف",
+                stat_exp: "سنوات خبرة", stat_book: "كتب منشورة", stat_disc: "خنادق مكتشفة", stat_passion: "شغف بالتراث",
+                about_title: "مستكشف حديث،<br>قصص قديمة",
+                card1_title: "السيطرة الميدانية", card1_desc: "حياة قضيت في جبال ووديان أفيون قره حصار.",
+                card2_title: "الإنتاج الأدبي", card2_desc: "مؤلف يترك سجلات دائمة للأجيال القادمة.",
+                card3_title: "الدبلوماسية الثقافية", card3_desc: "دليل ينقل روح الأناضول للجميع.",
+                books_title: "أعمال بارزة",
+                book_tag1: "سياحة وآثار", book1_desc: "الدليل المرئي الشامل للمنطقة.",
+                book_tag2: "تاريخ وذكريات", book2_desc: "قصص إنسانية من النضال الوطني.",
+                book_tag3: "بحث", book3_desc: "سرد ملحمي لأولئك الذين ساروا في طوفان الدم.",
+                contact_title: "المس التاريخ", contact_desc: "رحلات أفيون قره حصار، وتوفير الكتب أو دعوات الندوات."
+            }
+        };
+
+        // --- 3. Dil Değiştirme Fonksiyonu ---
+        function setLanguage(lang) {
+            document.querySelectorAll('.lang-switch .lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if(btn.innerText.toLowerCase() === lang) btn.classList.add('active');
+            });
+
+            // ARAPÇA İÇİN RTL AYARI (Yön Değiştirme)
+            const body = document.body;
+            const heroBtnIcon = document.querySelector('.btn-main i');
+            
+            if (lang === 'ar') {
+                body.classList.add('rtl'); 
+                if(heroBtnIcon) {
+                    heroBtnIcon.classList.remove('fa-arrow-right');
+                    heroBtnIcon.classList.add('fa-arrow-left');
+                }
+            } else {
+                body.classList.remove('rtl');
+                if(heroBtnIcon) {
+                    heroBtnIcon.classList.remove('fa-arrow-left');
+                    heroBtnIcon.classList.add('fa-arrow-right');
+                }
+            }
+
+            // Metinleri değiştir
+            const data = translations[lang];
+            for (const key in data) {
+                const element = document.querySelector(`[data-lang="${key}"]`);
+                if (element) {
+                    element.innerHTML = data[key];
+                }
+            }
+        }
+    </script>
+</body>
+</html>
