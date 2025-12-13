@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://inovitechh.github.io/habibakalin/sitemap.xml
